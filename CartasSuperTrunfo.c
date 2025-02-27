@@ -33,7 +33,7 @@ int main() {
     printf ("Área: ");
     scanf (" %f", &area01);
     printf ("PIB: ");
-    scanf (" %f", &pib01);
+    scanf (" %f\n", &pib01);
     printf ("Pontos turisticos: ");
     scanf (" %d", &pontosturisticos01);
 
