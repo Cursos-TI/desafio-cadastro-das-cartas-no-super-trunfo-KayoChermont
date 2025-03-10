@@ -33,7 +33,7 @@ int main() {
     printf ("Área: ");
     scanf (" %f", &area01);
     printf ("PIB: ");
-    scanf (" %f\n", &pib01);
+    scanf (" %f", &pib01);
     printf ("Pontos turisticos: ");
     scanf (" %d", &pontosturisticos01);
 
@@ -61,7 +61,7 @@ int main() {
     printf ("\n\nCarta 1: \n\nEstado: %c \nCidade: %s \nCódigo: %s \nPopulação: %d \nÁrea: %f km²\nPIB: %f \nPontos Turísticos: %d", 
         estado01, cidade01, codigo01, populacao01, area01, pib01, pontosturisticos01);
 
-    printf ("\n\nCarta 2: \n\nEstado: %c \nCidade: %s \nCódigo: %s \nPopulação: %d \nÁrea: %f km²\nPIB: %f \nPontos Turísticos: %d", 
+    printf ("\n\nCarta 2: \n\nEstado: %c \nCidade: %s \nCódigo: %s \nPopulação: %d \nÁrea: %f km²\nPIB: %f \nPontos Turísticos: %d\n", 
         estado02, cidade02, codigo02, populacao02, area02, pib02, pontosturisticos02);
 
 
