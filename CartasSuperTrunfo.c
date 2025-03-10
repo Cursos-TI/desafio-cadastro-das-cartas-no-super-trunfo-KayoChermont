@@ -39,7 +39,7 @@ int main() {
 
     //inserindo informações da carta 2
 
-    printf ("Carta número 2\n\n");
+    printf ("\nCarta número 2\n\n");
     
     printf ("Estado: ");
     scanf (" %c", &estado02);
@@ -58,10 +58,10 @@ int main() {
     
     //mostrando informaçoes das duas cartas
 
-    printf ("\n\nCarta 1: \n\nEstado: %c \nCidade: %s \nCódigo: %s \nPopulação: %d \nÁrea: %f km²\nPIB: %f \nPontos Turísticos: %d", 
+    printf ("\n\nCarta 1: \n\nEstado: %c \nCidade: %s \nCódigo: %s \nPopulação: %d \nÁrea: %.2f km²\nPIB: %.3f \nPontos Turísticos: %d", 
         estado01, cidade01, codigo01, populacao01, area01, pib01, pontosturisticos01);
 
-    printf ("\n\nCarta 2: \n\nEstado: %c \nCidade: %s \nCódigo: %s \nPopulação: %d \nÁrea: %f km²\nPIB: %f \nPontos Turísticos: %d\n", 
+    printf ("\n\nCarta 2: \n\nEstado: %c \nCidade: %s \nCódigo: %s \nPopulação: %d \nÁrea: %.2f km²\nPIB: %.3f \nPontos Turísticos: %d\n", 
         estado02, cidade02, codigo02, populacao02, area02, pib02, pontosturisticos02);
 
 
