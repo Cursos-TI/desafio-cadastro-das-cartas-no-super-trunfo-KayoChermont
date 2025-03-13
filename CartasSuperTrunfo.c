@@ -74,5 +74,5 @@ int main() {
         estado02, cidade02, codigo02, populacao02, area02, pib02, pontosturisticos02, densidade02, pibpercapita02);
 
     return 0;
-    
+     
 }
