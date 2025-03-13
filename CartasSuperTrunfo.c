@@ -58,7 +58,7 @@ int main() {
     printf ("Pontos turisticos: ");
     scanf (" %d", &pontosturisticos02);
     
-     //definindo valor da densidade e do PIB per capita
+    //definindo valor da densidade e do PIB per capita
 
     densidade01 = (populacao01 / area01);
     densidade02 = (populacao02 / area02);
