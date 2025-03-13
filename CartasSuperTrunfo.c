@@ -67,10 +67,10 @@ int main() {
     
     //mostrando informaçoes das duas cartas
 
-    printf ("\n\nCarta 1: \n\nEstado: %c \nCidade: %s \nCódigo: %s \nPopulação: %d \nÁrea: %.2f km²\nPIB: %.3f bilhões de reais \nPontos Turísticos: %d \nDensidade Populacional: %.2f hab/km² \nPIB per Capita: %.2f reais \n", 
+    printf ("\n\nCarta 1: \n\nEstado: %c \nCidade: %s \nCódigo: %s \nPopulação: %d \nÁrea: %.2f km²\nPIB: %.3f bilhões de reais \nPontos Turísticos: %d \nDensidade Populacional: %.2f hab/km² \nPIB per Capita: %.5f reais \n", 
         estado01, cidade01, codigo01, populacao01, area01, pib01, pontosturisticos01, densidade01, pibpercapita01);
 
-    printf ("\n\nCarta 2: \n\nEstado: %c \nCidade: %s \nCódigo: %s \nPopulação: %d \nÁrea: %.2f km²\nPIB: %.3f bilhões de reais \nPontos Turísticos: %d\nDensidade Populacional: %.2f hab/km² \nPIB per Capita: %.2f reais \n", 
+    printf ("\n\nCarta 2: \n\nEstado: %c \nCidade: %s \nCódigo: %s \nPopulação: %d \nÁrea: %.2f km²\nPIB: %.3f bilhões de reais \nPontos Turísticos: %d\nDensidade Populacional: %.2f hab/km² \nPIB per Capita: %.5f reais \n", 
         estado02, cidade02, codigo02, populacao02, area02, pib02, pontosturisticos02, densidade02, pibpercapita02);
 
     return 0;
