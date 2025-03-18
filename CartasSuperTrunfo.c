@@ -91,5 +91,5 @@ int main() {
     printf ("Super Poder: %s (%d)\n", superPoder01 > superPoder02 ? "Carta 1 venceu" : "Carta 2 venceu", superPoder01 > superPoder02 ? 1:0);
 
     return 0;
-    
+
 }
